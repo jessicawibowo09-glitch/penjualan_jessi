@@ -25,6 +25,7 @@
                      <li><a href="user.php"><i class="glyphicon glyphicon-user"></i> User</a></li>
                      <li><a href="barang.php"><i class="glyphicon glyphicon-tags"></i> Barang</a></li>
                      <li><a href="penjualan.php"><i class="glyphicon glyphicon-list-alt"></i> Penjualan</a></li>
+                    <li><a href="laporan.php"><i class="glyphicon glyphicon-list-alt"></i>Laporan</a></li>
                      <li><a href="logout.php"><i class="glyphicon glyphicon-log-out"></i> Log Out</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
