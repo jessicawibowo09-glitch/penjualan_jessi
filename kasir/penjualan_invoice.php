@@ -21,7 +21,7 @@ include '../koneksi.php';
         <?php
         $id = $_GET['id'] ?? null;
         if (!$id) {
-            echo "<script>alert('ID transaksi tidak ditemukan');window.history.back();</script>";
+            echo "<script>alert('ID penjualan tidak ditemukan');window.history.back();</script>";
             exit;
         }
 
@@ -44,7 +44,7 @@ include '../koneksi.php';
 
         <center><h2>PENJUALAN PRODUK</h2></center>
 
-        <a href="transaksi_invoice_cetak.php?id=<?php echo $id; ?>" 
+        <a href="penjualan_invoice_cetak.php?id=<?php echo $id; ?>" 
            target="_blank" 
            class="btn btn-primary pull-right">
            <i class="glyphicon glyphicon-print"></i> CETAK
