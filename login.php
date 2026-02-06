@@ -14,7 +14,7 @@ if ($user) {
     
     $_SESSION['username'] = $user['username'];
     $_SESSION['status'] = "login";
-    $_SESSION['user_status'] = $user['user_status']; // <--- PENTING
+    $_SESSION['user_status'] = $user['user_status']; 
 
     
     if ($user['user_status'] == 1) {

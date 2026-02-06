@@ -26,7 +26,7 @@ if(!$id){
 }
 
 // ambil data penjualan + kasir
-$transaksi = mysqli_query(
+$penjualan = mysqli_query(
     $koneksi,
     "SELECT p.*, u.user_nama, u.username
      FROM penjualan p
@@ -34,12 +34,12 @@ $transaksi = mysqli_query(
      WHERE p.id_jual='$id'"
 );
 
-if(mysqli_num_rows($transaksi)==0){
+if(mysqli_num_rows($penjualan)==0){
     echo "<script>alert('Data tidak ditemukan');window.close();</script>";
     exit;
 }
 
-$t = mysqli_fetch_assoc($transaksi);
+$t = mysqli_fetch_assoc($penjualan);
 ?>
 
 <div class="container">
